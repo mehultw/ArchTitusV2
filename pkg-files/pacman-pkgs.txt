@@ -135,3 +135,6 @@ unarchiver
 usbutils
 vlc
 yakuake
+fzf
+flatpak
+tmux
