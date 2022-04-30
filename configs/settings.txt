@@ -1,0 +1,43 @@
+Virtual Desktop
+ - add virtual desktop 3x3
+ - add shortcut to switch virtual desktop
+
+Install Fonts
+ - copy fonts.7z
+Install BgImages
+ - copy and apply Back.7z
+Change Update grub
+ - download 
+    - cd, install dark, run install.sh
+Update Icons
+ - update icons in settings to papyrus
+Update Konsole settings
+ - create profile, init with zsh 
+ - use Hack NF
+Update Tabby font and settings
+Update power management
+ - disable sleep
+ - disable lock screen
+Single click to select folders files in settings
+
+Chrome: 
+    - YouTube search engine :yt https://www.youtube.com/results?search_query=%s
+    Extentions:
+        - Dark Reader
+        - Session buddy
+
+Do initial Terminal ZSH setup with docker and portainer
+
+Initiate and Enable Services:
+    - docker
+        - sudo systemctl enable --now docker
+          sudo systemctl start --now docker
+    - snapd
+        - sudo systemctl enable --now snapd.socket                                                                                                    
+          sudo ln -s /var/lib/snapd/snap /snap  
+    - sshd
+        - sudo systemctl start sshd                                                                                                                   
+          sudo systemctl enable sshd  
+    - mariadb
+        - sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+          sudo systemctl enable --now mariadb

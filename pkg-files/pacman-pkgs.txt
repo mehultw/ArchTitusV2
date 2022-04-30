@@ -98,6 +98,7 @@ unzip
 virt-manager
 virt-viewer
 which
+wine
 wine-gecko
 wine-mono
 winetricks

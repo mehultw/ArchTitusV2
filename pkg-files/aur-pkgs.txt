@@ -27,6 +27,7 @@ nomachine
 ungoogled-chromium
 gitkraken
 filezilla
+tabby-terminal
 yarn
 wireshark-qt
 termshark
