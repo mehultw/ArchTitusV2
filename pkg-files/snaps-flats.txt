@@ -1,0 +1,7 @@
+#Snaps:
+bitwarden
+spotify
+cprov-brackets
+
+#flats:
+#ungoogled-chromium ( flatpak install flathub com.github.Eloston.UngoogledChromium )

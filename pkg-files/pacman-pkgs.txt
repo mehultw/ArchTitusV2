@@ -138,3 +138,13 @@ yakuake
 fzf
 flatpak
 tmux
+nomachine
+lsd
+docker
+netctl
+bridge-utils
+--lxc--
+--lxd--
+arch-install-scripts
+lolcat
+mariadb
