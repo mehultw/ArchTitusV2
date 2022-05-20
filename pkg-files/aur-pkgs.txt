@@ -24,7 +24,7 @@ zoom
 sublime-text-4
 sublime-merge
 nomachine
-ungoogled-chromium
+--ungoogled-chromium
 gitkraken
 filezilla
 tabby-terminal
